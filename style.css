@@ -1,0 +1,30 @@
+body {
+    background: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.socials ul li a {
+text-decoration: none;
+padding: 15px 15px;
+color: black;
+border-radius: 10px;
+transition: all .5s ease;
+}
+
+.socials ul li a:hover {
+    background:black;
+    color: white
+}
