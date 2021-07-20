@@ -3,6 +3,7 @@ body {
 }
 body.dark {
     background: black;
+    color: white;
 }
 
 header{
@@ -27,12 +28,12 @@ header{
 .socials ul li a {
     display: flex;
     justify-content: center;
-text-decoration: none;
-padding-left: 0;
-padding: 15px 15px;
-color: black;
-border-radius: 10px;
-transition: all .5s ease;
+    text-decoration: none;
+    padding-left: 0;
+    padding: 15px 15px;
+    color: black;
+    border-radius: 10px;
+    transition: all .5s ease;
 }
 
 .socials ul li a:hover {
@@ -40,21 +41,7 @@ transition: all .5s ease;
     color: white
 }
 
-.label{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 60px;
-    border-radius: 30px;
-}
-
-.checkbox{
-    opacity: .5 ;
-    position: absolute;
-}
-
-.checkbox:checked{
-    background-color: purple;
+.socials ul li a:hover .dark{
+  color:black;
+  background:white;
 }

@@ -22,10 +22,10 @@
    </header>
   </div>
 
-  <div>
-    <input type="checkbox" class = "checkbox" id = checkbox;>
-    <Label for="checkbox" class = "label">
+  <div id="container"> 
+
   </div>
+  <button id="button"> Dark Mode >:)</button>
 
   <div class="socials" style="font-family: 'Courier New', Courier, monospace;">
     <ul>
@@ -39,5 +39,15 @@
     </ul>
   </div>
 
+  <script type="text/javascript">
+   document.querySelector("button").addEventListener("click",function(){
+      //document.querySelector("body").style.background= "#000" ;
+      //document.querySelector("h1").style.color="#fff";
+      //document.querySelector("socials").style.color="#fff";
+      document.body.classList.toggle("dark")
+   })
+
+  </script>
 </body>
 </html>
+
